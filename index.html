@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#070716" />
+  <title>Neon Last Call — Visual Edition</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" aria-label="Cyberpunk-Barkeeper-Spiel"></canvas>
+
+    <header class="hud glass">
+      <div><b>NEON LAST CALL</b><span id="nightLabel">Nacht 1</span></div>
+      <div class="stats"><span>€ <b id="money">120</b></span><span>Ruf <b id="rep">0</b></span><span>Gäste <b id="served">0</b>/5</span></div>
+    </header>
+
+    <section id="dialogPanel" class="dialog glass">
+      <div class="speaker-row"><span id="speaker">MIRA-7</span><div class="meters"><label>Vertrauen <i id="trustBar"></i></label><label>Chemie <i id="chemBar"></i></label></div></div>
+      <p id="dialogText"></p>
+      <div id="choices" class="choices"></div>
+    </section>
+
+    <aside id="recipePanel" class="recipe glass hidden">
+      <div class="panel-head"><b>REZEPT-TABLET</b><button data-close="recipePanel">×</button></div>
+      <h2 id="recipeName"></h2>
+      <div id="recipeMeta"></div>
+      <ul id="recipeIngredients"></ul>
+      <p class="tip">Halte eine Flasche gedrückt, um einzuschenken. Stoppe exakt bei der Milliliter-Angabe.</p>
+    </aside>
+
+    <aside id="shopPanel" class="shop glass hidden">
+      <div class="panel-head"><b>SCHWARZMARKT</b><button data-close="shopPanel">×</button></div>
+      <div id="shopItems"></div>
+    </aside>
+
+    <section id="mixPanel" class="mix-ui glass hidden">
+      <div class="mix-top">
+        <button id="recipeBtn">▣ Rezept</button>
+        <div><b id="mixTitle">Mixstation</b><span id="volumeLabel">0 ml</span></div>
+        <button id="resetBtn">↺ Leeren</button>
+      </div>
+      <div id="ingredientRack" class="rack"></div>
+      <div class="mix-actions">
+        <button id="iceBtn">◆ Eiswürfel</button>
+        <button id="crushedBtn">✦ Crushed Ice</button>
+        <button id="shakeBtn">⇆ Shaken</button>
+        <button id="serveBtn" class="serve">Auf den Tresen stellen</button>
+      </div>
+    </section>
+
+    <nav class="bottom-nav glass">
+      <button id="talkBtn">Sprechen</button>
+      <button id="mixBtn">Drink mixen</button>
+      <button id="contactsBtn">Kontakte</button>
+      <button id="shopBtn">Shop</button>
+    </nav>
+
+    <section id="contactsPanel" class="contacts glass hidden">
+      <div class="panel-head"><b>KONTAKTE</b><button data-close="contactsPanel">×</button></div>
+      <div id="contactsList"></div>
+    </section>
+
+    <div id="toast" class="toast"></div>
+    <div id="start" class="start-screen">
+      <div class="start-card glass">
+        <div class="logo">NEON<br><span>LAST CALL</span></div>
+        <p>Eine visuelle Cyberpunk-Bar-Simulation</p>
+        <button id="startBtn">BAR ÖFFNEN</button>
+        <small>Canvas-Grafik · keine externen Assets · speichert lokal</small>
+      </div>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
