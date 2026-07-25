@@ -1,6 +1,8 @@
-# Neon Last Call – Flat Edition
+# Neon Last Call
 
-Ein vollständig statisches Browser-Spiel für GitHub Pages. Alle Dateien liegen auf derselben Ebene; es gibt keine Unterordner und keinen Build-Schritt.
+**Version 2.0.0**
+
+Ein vollständig statisches, animiertes Browser-Spiel für GitHub Pages. Alle Dateien liegen auf derselben Ebene; es gibt keine Unterordner und keinen Build-Schritt.
 
 ## Start
 
@@ -14,6 +16,11 @@ Ein vollständig statisches Browser-Spiel für GitHub Pages. Alle Dateien liegen
 
 ## Enthalten
 
+- Neues Hauptmenü mit sichtbarer Versionsnummer
+- Spielstand laden, löschen und neu beginnen
+- Responsive Layouts für Desktop, iPad, Handy und Querformat
+- Animierte Gäste, Neonbeleuchtung und Regen
+- Animierte Flaschen, Flüssigkeit, Eis, Blasen, Shaken und Rühren
 - Drei gezeichnete Cyberpunk-Gäste
 - Dialog- und Flirtsystem
 - Beziehungen: Vertrauen und Chemie
