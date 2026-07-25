@@ -60,8 +60,19 @@
             <button id="recipeBtn" class="secondary">Rezept-Tablet</button>
           </div>
           <div class="mix-layout">
-            <div id="bottleRack"></div>
+            <section class="bottle-section">
+              <div class="section-label"><span>BARREGAL</span><small>Alle Zutaten auf einen Blick</small></div>
+              <div id="bottleRack"></div>
+            </section>
             <div id="barTools">
+              <div id="glassSelector" aria-label="Glas auswählen">
+                <span>GLAS WÄHLEN</span>
+                <div>
+                  <button data-glass="Highball"><i class="glass-icon highball"></i><b>Highball</b></button>
+                  <button data-glass="Rocks"><i class="glass-icon rocks"></i><b>Rocks</b></button>
+                  <button data-glass="Coupe"><i class="glass-icon coupe"></i><b>Coupe</b></button>
+                </div>
+              </div>
               <div id="glassWrap">
                 <div class="tool-glow"></div>
                 <div id="glass"><div id="liquid"></div><div id="iceLayer"></div><div id="bubbles"></div></div>
@@ -77,6 +88,12 @@
                 <button id="serveBtn" class="primary">Servieren</button>
               </div>
             </div>
+            <aside id="recipeDock" class="recipe-dock hidden" aria-label="Angeheftetes Rezept">
+              <div class="dock-head"><span>LIVE-REZEPT</span><button id="unpinRecipeBtn" aria-label="Rezept ausblenden">×</button></div>
+              <h3 id="dockTitle"></h3>
+              <div id="dockList"></div>
+              <div id="dockMeta" class="recipe-meta"></div>
+            </aside>
           </div>
           <div id="mixLog">Wähle eine Flasche und halte „Einschenken“ gedrückt.</div>
         </section>
@@ -86,6 +103,7 @@
           <small>BAROS 8.0 · REZEPTARCHIV</small><h2 id="tabletTitle">Neon Mirage</h2>
           <div id="recipeList"></div>
           <div class="recipe-meta"><span id="recipeGlass"></span><span id="recipeIce"></span><span id="recipeMethod"></span></div>
+          <button id="pinRecipeBtn" class="primary pin-recipe">Rezept dauerhaft einblenden</button>
         </aside>
 
         <section id="resultPanel" class="glass-panel hidden">
