@@ -1,6 +1,6 @@
 # Neon Last Call
 
-**Version 2.1.1**
+**Version 2.2.0**
 
 Ein vollständig statisches, animiertes Browser-Spiel für GitHub Pages. Alle Dateien liegen auf derselben Ebene; es gibt keine Unterordner und keinen Build-Schritt.
 
@@ -28,6 +28,10 @@ Ein vollständig statisches, animiertes Browser-Spiel für GitHub Pages. Alle Da
 - Korrigiertes Coupe-Glas mit Stiel und Fuß
 - Trinkanimation nach dem Servieren
 - Detailliertere Bar-Kulisse und überarbeitete Nyx-Figur
+- Sichtbare Rezept-Seitenleiste speziell für iPad-Hochformat
+- Zwölf unterschiedliche Flaschenformen mit mittigen Hälsen und Labels
+- Sechs eigenständige Gastgrafiken statt eingefärbter Doppelgänger
+- Korrigierte Augen- und Pupillenproportionen
 - Responsive Layouts für Desktop, iPad, Handy und Querformat
 - Animierte Gäste, Neonbeleuchtung und Regen
 - Animierte Flaschen, Flüssigkeit, Eis, Blasen, Shaken und Rühren
