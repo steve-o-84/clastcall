@@ -36,4 +36,11 @@
 <circle cx="419" cy="476" r="6" fill="#4cecff" filter="url(#g)"/>
 <path d="M282 644l68 83 69-83" fill="none" stroke="#ffbd43" stroke-width="7" filter="url(#g)"/>
 <path d="M350 727v215" stroke="#ff6b4b" stroke-width="5"/>
+<!-- v2.3 racing armor, hair depth and augmented glove -->
+<path d="M246 187q67-67 160-75M262 219q65-51 137-66" fill="none" stroke="#ffd17b" stroke-opacity=".38" stroke-width="6"/>
+<path d="M279 443q24 116 72 150 50-34 76-149-7 129-76 166-68-38-72-167z" fill="#7b3348" opacity=".12"/>
+<path d="M183 774l91 41-50 109M517 774l-91 41 50 109" fill="none" stroke="#ffc85e" stroke-opacity=".42" stroke-width="6"/>
+<path d="M220 842h92m76 0h92M239 892h69m84 0h69" stroke="#ff7255" stroke-opacity=".35" stroke-width="5"/>
+<g transform="translate(495 832) rotate(13)"><path d="M0 0h126l28 72-111 37z" fill="#23283a" stroke="#e45b4e" stroke-width="6"/><path d="M25 20l102 42M18 45l96 39M42 10l-18 75M73 9L51 95" stroke="#697488" stroke-width="6"/><circle cx="95" cy="58" r="15" fill="#ffb943" filter="url(#g)"/></g>
+<path d="M621 871q29-38 57-9 16 27-8 48" fill="none" stroke="#d68876" stroke-width="15" stroke-linecap="round"/>
 </svg>
