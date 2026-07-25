@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#060817"/><stop offset=".52" stop-color="#101229"/><stop offset="1" stop-color="#03040c"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#190e1d"/><stop offset=".45" stop-color="#4d1731"/><stop offset="1" stop-color="#101425"/></linearGradient>
+  <linearGradient id="counter" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8d3444"/><stop offset=".15" stop-color="#341423"/><stop offset="1" stop-color="#0b0a13"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="25"/></filter>
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="#67325e" stroke-opacity=".14" stroke-width="2"/></pattern>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<rect width="1920" height="1080" fill="url(#grid)"/>
+<ellipse cx="1220" cy="260" rx="620" ry="240" fill="#ff2aa8" opacity=".08" filter="url(#soft)"/>
+<ellipse cx="420" cy="420" rx="450" ry="290" fill="#36d9ff" opacity=".06" filter="url(#soft)"/>
+<!-- ceiling rails -->
+<path d="M0 126H1920M0 178H1920" stroke="#331b40" stroke-width="18"/><path d="M0 118H1920" stroke="#ff2aa8" stroke-opacity=".45" stroke-width="4" filter="url(#glow)"/>
+<!-- shelves -->
+<rect x="70" y="225" width="1780" height="430" rx="16" fill="#080914" stroke="#3f294d" stroke-width="8"/>
+<rect x="110" y="265" width="1700" height="350" rx="10" fill="url(#bar)"/>
+<g opacity=".7"><path d="M110 376H1810M110 492H1810" stroke="#b7438b" stroke-width="6"/><path d="M110 382H1810M110 498H1810" stroke="#3bd8ff" stroke-opacity=".25" stroke-width="3"/></g>
+<!-- bottle silhouettes -->
+<g opacity=".9">
+  <g fill="#f9bf59"><rect x="160" y="292" width="36" height="72" rx="8"/><rect x="171" y="270" width="14" height="24"/><rect x="211" y="306" width="34" height="58" rx="7" fill="#55d8ff"/><rect x="221" y="280" width="14" height="27" fill="#55d8ff"/></g>
+  <g fill="#ff4d87"><rect x="282" y="302" width="42" height="62" rx="8"/><rect x="296" y="275" width="14" height="28"/><rect x="342" y="288" width="32" height="76" rx="8" fill="#7bea96"/><rect x="351" y="263" width="14" height="27" fill="#7bea96"/></g>
+  <g fill="#9f75ff"><rect x="430" y="296" width="37" height="68" rx="8"/><rect x="441" y="270" width="15" height="27"/><rect x="490" y="312" width="44" height="52" rx="7" fill="#ffad52"/><rect x="505" y="281" width="14" height="32" fill="#ffad52"/></g>
+  <g fill="#4ddff7"><rect x="605" y="286" width="38" height="78" rx="8"/><rect x="617" y="258" width="14" height="30"/><rect x="663" y="305" width="42" height="59" rx="7" fill="#ff5bd2"/><rect x="677" y="274" width="14" height="32" fill="#ff5bd2"/></g>
+  <g fill="#ffdc62"><rect x="780" y="298" width="42" height="66" rx="8"/><rect x="794" y="267" width="14" height="32"/><rect x="838" y="285" width="36" height="79" rx="8" fill="#53f0ba"/><rect x="849" y="258" width="14" height="29" fill="#53f0ba"/></g>
+  <g fill="#fa4e79"><rect x="1010" y="294" width="39" height="70" rx="8"/><rect x="1022" y="266" width="14" height="30"/><rect x="1065" y="309" width="45" height="55" rx="7" fill="#59a7ff"/><rect x="1080" y="280" width="14" height="31" fill="#59a7ff"/></g>
+  <g fill="#a873ff"><rect x="1190" y="289" width="38" height="75" rx="8"/><rect x="1202" y="260" width="14" height="31"/><rect x="1247" y="302" width="42" height="62" rx="7" fill="#ffb451"/><rect x="1261" y="271" width="14" height="33" fill="#ffb451"/></g>
+  <g fill="#66f0be"><rect x="1382" y="300" width="42" height="64" rx="8"/><rect x="1396" y="270" width="14" height="31"/><rect x="1442" y="289" width="36" height="75" rx="8" fill="#ff62d0"/><rect x="1453" y="261" width="14" height="30" fill="#ff62d0"/></g>
+  <g fill="#57d6ff"><rect x="1580" y="290" width="38" height="74" rx="8"/><rect x="1592" y="263" width="14" height="29"/><rect x="1638" y="306" width="43" height="58" rx="7" fill="#ffd75e"/><rect x="1652" y="276" width="14" height="31" fill="#ffd75e"/></g>
+</g>
+<!-- middle neon sign -->
+<g filter="url(#glow)"><rect x="742" y="398" width="440" height="102" rx="24" fill="#12071c" stroke="#ff34b4" stroke-width="5"/><text x="962" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="52" fill="#ff88d7" letter-spacing="8">NEON LAST CALL</text></g>
+<!-- city windows -->
+<g opacity=".9"><rect x="84" y="680" width="460" height="220" rx="18" fill="#071a28" stroke="#3ce3ff" stroke-opacity=".32" stroke-width="5"/><rect x="1376" y="680" width="460" height="220" rx="18" fill="#17091c" stroke="#ff48c5" stroke-opacity=".35" stroke-width="5"/>
+<g stroke="#42dfff" stroke-width="4" opacity=".45"><path d="M120 715l80 185M230 715l80 185M340 715l80 185M450 715l60 140"/></g><g stroke="#ff47ba" stroke-width="4" opacity=".38"><path d="M1410 715l100 185M1530 715l100 185M1650 715l100 185"/></g></g>
+<!-- counter -->
+<path d="M0 830Q960 760 1920 830V1080H0Z" fill="url(#counter)"/>
+<path d="M0 832Q960 765 1920 832" fill="none" stroke="#ff5b8a" stroke-width="10" filter="url(#glow)"/>
+<path d="M0 888Q960 830 1920 888" fill="none" stroke="#2ddcff" stroke-opacity=".32" stroke-width="3"/>
+<!-- foreground reflections -->
+<ellipse cx="960" cy="940" rx="520" ry="60" fill="#ff376f" opacity=".12" filter="url(#soft)"/>
+<ellipse cx="1210" cy="955" rx="310" ry="45" fill="#38dfff" opacity=".09" filter="url(#soft)"/>
+</svg>
