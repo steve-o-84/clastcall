@@ -32,4 +32,12 @@
 <path d="M461 438q60 29 50 89" fill="none" stroke="#ff56ce" stroke-width="5"/><circle cx="505" cy="531" r="8" fill="#ff61d2" filter="url(#g)"/>
 <path d="M294 650l56 69 58-69" fill="none" stroke="#49e9ff" stroke-width="7" filter="url(#g)"/>
 <g fill="#64efff"><circle cx="212" cy="855" r="6"/><circle cx="488" cy="855" r="6"/></g>
+<!-- v2.3 stage couture, hair strands and microphone hand -->
+<path d="M218 275q45-118 132-154M234 329q55-118 144-179M407 147q59 72 82 173" fill="none" stroke="#bdfff8" stroke-opacity=".32" stroke-width="6" stroke-linecap="round"/>
+<path d="M269 447q23 117 82 151 60-35 84-151-8 132-84 167-76-36-82-167z" fill="#713850" opacity=".12"/>
+<path d="M217 748q133 78 266 0M199 824q151 77 302 0M184 899q166 64 332 0" fill="none" stroke="#ff6fd2" stroke-opacity=".3" stroke-width="6"/>
+<path d="M242 710l72 59-56 157M458 710l-72 59 56 157" fill="none" stroke="#71efff" stroke-opacity=".3" stroke-width="5"/>
+<g transform="translate(493 785) rotate(12)"><rect width="32" height="153" rx="15" fill="#15192c" stroke="#ff55ca" stroke-width="5"/><ellipse cx="16" cy="8" rx="27" ry="22" fill="#252b42" stroke="#57eaff" stroke-width="5"/><path d="M8 45h16M8 66h16M8 87h16" stroke="#6fefff" stroke-width="4"/></g>
+<path d="M489 844q-30 27-8 55 25 18 52-5" fill="none" stroke="#d89687" stroke-width="15" stroke-linecap="round"/>
+<circle cx="350" cy="729" r="12" fill="#ff52c5" filter="url(#g)"/>
 </svg>
