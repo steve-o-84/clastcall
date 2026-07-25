@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1000" viewBox="0 0 700 1000">
+<defs>
+ <linearGradient id="hair" x1="0" x2="1" y2="1"><stop stop-color="#42f4e7"/><stop offset=".45" stop-color="#257fc7"/><stop offset="1" stop-color="#6a2fc6"/></linearGradient>
+ <linearGradient id="skin" x1="0" y2="1"><stop stop-color="#f4c7a9"/><stop offset="1" stop-color="#b96e75"/></linearGradient>
+ <linearGradient id="dress" x1="0" x2="1"><stop stop-color="#230d35"/><stop offset=".45" stop-color="#73175f"/><stop offset="1" stop-color="#11132d"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="350" cy="930" rx="230" ry="42" fill="#ff3bb7" opacity=".18" filter="url(#g)"/>
+<!-- flowing stage costume -->
+<path d="M149 940q29-220 142-326h118q113 106 142 326z" fill="url(#dress)" stroke="#c34aad" stroke-width="7"/>
+<path d="M278 614l72 105 73-105 45 326H232z" fill="#15162d"/>
+<path d="M204 689q-45 102-55 251h95l52-267zm292-1q45 103 55 252h-95l-52-267z" fill="#38164c" stroke="#8b3aa5" stroke-width="5"/>
+<path d="M260 747q90 49 181 0M242 813q109 57 217 0M225 878q125 55 250 0" fill="none" stroke="#ff5fc8" stroke-opacity=".28" stroke-width="5"/>
+<!-- neck -->
+<path d="M302 559h96l12 78q-60 54-120 0z" fill="url(#skin)"/>
+<!-- huge asymmetrical hair silhouette -->
+<path d="M183 389q-24-221 171-285 180 59 165 286l-34 290-84-61 24-225q5-174-80-191-89 25-73 204l28 226-93 64z" fill="url(#hair)" stroke="#246aa9" stroke-width="8"/>
+<path d="M190 318q-30-132 89-204-22 89 30 166zm326 42q18-139-98-235 7 103-40 167z" fill="#38c8d4" opacity=".55"/>
+<!-- face -->
+<path d="M254 303q30-112 99-117 78 12 99 122l-12 193q-20 78-88 111-69-34-89-111z" fill="url(#skin)" stroke="#a65d70" stroke-width="5"/>
+<!-- side swept fringe -->
+<path d="M220 333q9-177 139-191 89 22 122 136-82-65-210 82z" fill="url(#hair)"/>
+<path d="M243 312q62-109 178-123M270 335q68-73 164-103" fill="none" stroke="#b8fff7" stroke-opacity=".32" stroke-width="7"/>
+<!-- holo visor and eyes -->
+<path d="M265 351q85-44 174 0l-9 72q-78 30-159 0z" fill="#102739" fill-opacity=".58" stroke="#46efff" stroke-width="5" filter="url(#g)"/>
+<path d="M278 378q30-18 59 0m29 0q31-18 61 0" fill="none" stroke="#eefcff" stroke-width="8" stroke-linecap="round"/>
+<circle cx="310" cy="379" r="4" fill="#152234"/><circle cx="397" cy="379" r="4" fill="#152234"/>
+<path d="M354 393l-10 61 24 5" fill="none" stroke="#9f5e6d" stroke-width="5"/>
+<path d="M310 506q42 29 85 0-40 54-85 0z" fill="#9c285e"/><path d="M322 510q30 10 60 0" stroke="#ffe5e1" stroke-width="5"/>
+<!-- singer tech -->
+<path d="M447 379q46-11 43 43l-30 32-17-20z" fill="#17142b" stroke="#ff4cc6" stroke-width="5"/>
+<path d="M461 438q60 29 50 89" fill="none" stroke="#ff56ce" stroke-width="5"/><circle cx="505" cy="531" r="8" fill="#ff61d2" filter="url(#g)"/>
+<path d="M294 650l56 69 58-69" fill="none" stroke="#49e9ff" stroke-width="7" filter="url(#g)"/>
+<g fill="#64efff"><circle cx="212" cy="855" r="6"/><circle cx="488" cy="855" r="6"/></g>
+</svg>
