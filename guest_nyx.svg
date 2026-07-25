@@ -32,8 +32,8 @@
 <g filter="url(#g)"><path d="M214 392l34 14-2 56-38-10z" fill="#101827" stroke="#41e4ff" stroke-width="5"/><circle cx="230" cy="425" r="8" fill="#41e4ff"/><path d="M486 392l-34 14 2 56 38-10z" fill="#101827" stroke="#ff45c8" stroke-width="5"/><circle cx="470" cy="425" r="8" fill="#ff45c8"/></g>
 <!-- eyes -->
 <path d="M282 390q37-28 73 0q-35 34-73 0z" fill="#fff7fa"/><path d="M345 390q38-28 74 0q-36 34-74 0z" fill="#fff7fa"/>
-<ellipse cx="321" cy="392" rx="13" ry="21" fill="#39dcff"/><ellipse cx="382" cy="392" rx="13" ry="21" fill="#ff4ecb"/><circle cx="321" cy="394" r="6"/><circle cx="382" cy="394" r="6"/>
-<g fill="#fff"><circle cx="316" cy="383" r="3"/><circle cx="377" cy="383" r="3"/></g>
+<ellipse cx="321" cy="392" rx="9" ry="14" fill="#39dcff"/><ellipse cx="382" cy="392" rx="9" ry="14" fill="#ff4ecb"/><circle cx="321" cy="393" r="4"/><circle cx="382" cy="393" r="4"/>
+<g fill="#fff"><circle cx="318" cy="387" r="2"/><circle cx="379" cy="387" r="2"/></g>
 <g>
   <path d="M278 382q40 20 78 0M344 382q41 20 80 0" fill="none" stroke="#c47a7d" stroke-width="15" stroke-linecap="round" opacity="0">
     <animate attributeName="opacity" values="0;0;1;0;0" dur="5.8s" repeatCount="indefinite"/>
