@@ -1,19 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="1000" viewBox="0 0 700 1000">
-<defs><linearGradient id="h" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7f8ff"/><stop offset=".45" stop-color="#83bfff"/><stop offset="1" stop-color="#6b5cff"/></linearGradient><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffe1cf"/><stop offset="1" stop-color="#d99e96"/></linearGradient><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111c31"/><stop offset="1" stop-color="#263d66"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<ellipse cx="350" cy="920" rx="230" ry="44" fill="#4d9dff" opacity=".2" filter="url(#g)"/>
-<path d="M165 940Q180 720 250 622Q350 577 450 622Q520 720 535 940Z" fill="url(#c)" stroke="#5d84d8" stroke-width="7"/>
-<path d="M250 640l100 84 100-84 40 300H210Z" fill="#0d1324"/>
-<path d="M302 558h96l10 91q-58 39-116 0z" fill="url(#s)"/>
-<path d="M205 410Q196 160 350 118Q510 158 496 417L477 630Q427 704 386 720L373 612Q461 550 451 380Q442 225 350 210Q258 228 249 382Q242 548 329 612L313 720Q264 694 221 631Z" fill="url(#h)" stroke="#5d65b8" stroke-width="8"/>
-<path d="M255 325Q277 219 350 208Q427 220 447 326L438 485Q423 563 350 595Q277 564 261 485Z" fill="url(#s)" stroke="#bd7d79" stroke-width="5"/>
-<path d="M240 350Q244 177 355 157Q454 180 470 339Q418 307 390 226Q359 303 300 339Q270 352 240 350Z" fill="url(#h)"/>
-<path d="M250 384q-45-20-52 28q4 65 61 62zM450 384q45-20 52 28q-4 65-61 62z" fill="url(#s)"/>
-<path d="M278 389q39-28 76 0q-37 35-76 0zM346 389q39-28 76 0q-37 35-76 0z" fill="#fff"/>
-<ellipse cx="319" cy="391" rx="13" ry="21" fill="#56e7ff"/><ellipse cx="383" cy="391" rx="13" ry="21" fill="#56e7ff"/><circle cx="319" cy="394" r="6"/><circle cx="383" cy="394" r="6"/>
-<path d="M276 366q39-25 80 0M345 366q39-25 80 0" fill="none" stroke="#39445f" stroke-width="10" stroke-linecap="round"/>
-<path d="M348 400l-11 71 27 4" fill="none" stroke="#b87677" stroke-width="5" stroke-linecap="round"/>
-<path d="M315 510q36 23 73 0q-37 45-73 0z" fill="#9d4762"/><path d="M325 513q27 10 53 0" stroke="#ffe5e9" stroke-width="5" fill="none"/>
-<path d="M200 394l44 14 3 58-45-11zM500 394l-44 14-3 58 45-11z" fill="#17243f" stroke="#53e6ff" stroke-width="5" filter="url(#g)"/>
-<path d="M256 650l94 89 94-89" fill="none" stroke="#58ddff" stroke-width="8" filter="url(#g)"/>
-<path d="M190 694l-54 226h83l65-207zM510 694l54 226h-83l-65-207z" fill="#172642" stroke="#4c75c9" stroke-width="5"/>
+<defs>
+ <linearGradient id="skin" x1="0" y2="1"><stop stop-color="#f2cbb7"/><stop offset="1" stop-color="#b97878"/></linearGradient>
+ <linearGradient id="bob" x1="0" x2="1" y2="1"><stop stop-color="#d8f4ff"/><stop offset=".48" stop-color="#6d91c7"/><stop offset="1" stop-color="#26345d"/></linearGradient>
+ <linearGradient id="suit" x1="0" x2="1"><stop stop-color="#17263d"/><stop offset=".5" stop-color="#243b61"/><stop offset="1" stop-color="#11192d"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="350" cy="930" rx="230" ry="42" fill="#49e5ff" opacity=".15" filter="url(#g)"/>
+<!-- fitted courier suit, narrow silhouette -->
+<path d="M178 942q28-229 111-316l61 41 61-41q83 87 111 316z" fill="url(#suit)" stroke="#4d75a8" stroke-width="7"/>
+<path d="M289 626l61 41 61-41 45 316H244z" fill="#0f1728"/>
+<path d="M214 688l79-63 35 73-75 220H164zm272 0-79-63-35 73 75 220h89z" fill="#1f3454" stroke="#6790bf" stroke-width="5"/>
+<path d="M268 762h164M253 824h194M239 887h222" stroke="#46ddff" stroke-opacity=".18" stroke-width="5"/>
+<path d="M350 669v273" stroke="#56e8ff" stroke-opacity=".65" stroke-width="5"/>
+<!-- neck -->
+<path d="M305 548h90l15 91q-60 45-120 0z" fill="url(#skin)"/>
+<!-- sharp geometric bob -->
+<path d="M207 257q39-154 146-158 119 17 149 170l-30 348-70-61 18-245q-17-119-72-127-62 13-75 132l19 242-72 61z" fill="url(#bob)" stroke="#506c9b" stroke-width="8"/>
+<path d="M221 276L276 129l43 66 51-111 25 110 89-65-25 148z" fill="url(#bob)"/>
+<path d="M245 253q92-91 208-79M262 289q86-69 177-68" fill="none" stroke="#effdff" stroke-opacity=".38" stroke-width="7"/>
+<!-- adult face -->
+<path d="M255 294q26-103 95-111 75 11 95 111l-11 205q-20 82-84 114-66-33-84-114z" fill="url(#skin)" stroke="#a86472" stroke-width="5"/>
+<!-- corporate augmented visor -->
+<path d="M264 337q85-41 173 0l-7 72q-78 28-160 0z" fill="#071522" fill-opacity=".7" stroke="#48eaff" stroke-width="5"/>
+<path d="M279 370q28-15 56 0m32 0q29-15 59 0" fill="none" stroke="#e9fcff" stroke-width="7" stroke-linecap="round"/>
+<circle cx="307" cy="371" r="3.5" fill="#10202d"/><circle cx="397" cy="371" r="3.5" fill="#10202d"/>
+<path d="M350 393l-9 62 25 5" fill="none" stroke="#9d5f6e" stroke-width="5"/>
+<path d="M310 508q41 22 82 0" fill="none" stroke="#8f3d61" stroke-width="7"/>
+<!-- data earpiece and courier marks -->
+<path d="M443 353l48 5-4 91-44 18z" fill="#0b1725" stroke="#58e9ff" stroke-width="5"/>
+<path d="M456 375h20v48h-20z" fill="#37dfff" opacity=".6" filter="url(#g)"/>
+<path d="M282 639l68 30 68-30" fill="none" stroke="#75efff" stroke-width="6"/>
+<path d="M443 734l50 14-15 58-50-15z" fill="#0e1f35" stroke="#49e5ff" stroke-width="4"/><path d="M450 761h27" stroke="#49e5ff" stroke-width="5"/>
 </svg>
