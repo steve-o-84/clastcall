@@ -3,6 +3,8 @@
 <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff6adf"/><stop offset=".45" stop-color="#a84fff"/><stop offset="1" stop-color="#5036b8"/></linearGradient>
 <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd2bc"/><stop offset="1" stop-color="#d98f87"/></linearGradient>
 <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19253f"/><stop offset=".55" stop-color="#331b4f"/><stop offset="1" stop-color="#101726"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8f6ff"/><stop offset=".25" stop-color="#4eb7d4"/><stop offset=".55" stop-color="#252d4f"/><stop offset="1" stop-color="#c64db9"/></linearGradient>
+<radialGradient id="blush"><stop stop-color="#ff699d" stop-opacity=".32"/><stop offset="1" stop-color="#ff699d" stop-opacity="0"/></radialGradient>
 <filter id="g"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <ellipse cx="350" cy="920" rx="230" ry="44" fill="#00d8ff" opacity=".18" filter="url(#g)"/>
@@ -12,6 +14,9 @@
 <path d="M290 642l60 94 60-94 22 294H268Z" fill="#202b44"/>
 <path d="M248 650l-70 274h72l67-212zM452 650l70 274h-72l-67-212z" fill="#1a2137" stroke="#64469a" stroke-width="5"/>
 <path d="M289 657l61 83 62-83" fill="none" stroke="#ff53ce" stroke-width="8" filter="url(#g)"/>
+<path d="M205 884l52-181 41 20-37 161zM495 884l-52-181-41 20 37 161z" fill="url(#metal)" opacity=".32"/>
+<path d="M275 752h150M263 792h174M252 834h196" stroke="#65dfff" stroke-opacity=".16" stroke-width="4"/>
+<g fill="#66e6ff" opacity=".75"><circle cx="226" cy="846" r="5"/><circle cx="474" cy="846" r="5"/></g>
 <!-- neck -->
 <path d="M303 564h94l10 88q-58 43-114 0z" fill="url(#skin)"/>
 <!-- hair back -->
@@ -21,18 +26,28 @@
 <!-- fringe -->
 <path d="M242 344Q242 180 358 160Q466 197 471 352Q426 300 399 227Q371 309 304 341Q276 352 242 344Z" fill="url(#hair)"/>
 <path d="M260 335Q284 262 328 237M333 232Q392 292 438 320" fill="none" stroke="#ff9ceb" stroke-opacity=".45" stroke-width="8"/>
+<path d="M278 311Q301 213 363 190M306 329Q362 276 393 210M376 208Q420 262 449 324" fill="none" stroke="#ffd1f4" stroke-opacity=".24" stroke-width="5" stroke-linecap="round"/>
 <!-- ears/cyber -->
 <path d="M252 383q-48-18-52 32q7 62 61 62zM448 383q48-18 52 32q-7 62-61 62z" fill="url(#skin)"/>
 <g filter="url(#g)"><path d="M214 392l34 14-2 56-38-10z" fill="#101827" stroke="#41e4ff" stroke-width="5"/><circle cx="230" cy="425" r="8" fill="#41e4ff"/><path d="M486 392l-34 14 2 56 38-10z" fill="#101827" stroke="#ff45c8" stroke-width="5"/><circle cx="470" cy="425" r="8" fill="#ff45c8"/></g>
 <!-- eyes -->
 <path d="M282 390q37-28 73 0q-35 34-73 0z" fill="#fff7fa"/><path d="M345 390q38-28 74 0q-36 34-74 0z" fill="#fff7fa"/>
 <ellipse cx="321" cy="392" rx="13" ry="21" fill="#39dcff"/><ellipse cx="382" cy="392" rx="13" ry="21" fill="#ff4ecb"/><circle cx="321" cy="394" r="6"/><circle cx="382" cy="394" r="6"/>
+<g fill="#fff"><circle cx="316" cy="383" r="3"/><circle cx="377" cy="383" r="3"/></g>
+<g>
+  <path d="M278 382q40 20 78 0M344 382q41 20 80 0" fill="none" stroke="#c47a7d" stroke-width="15" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" dur="5.8s" repeatCount="indefinite"/>
+  </path>
+</g>
 <path d="M278 368q37-26 76-1M347 366q37-25 77 1" fill="none" stroke="#49244e" stroke-width="10" stroke-linecap="round"/>
 <!-- nose/mouth -->
 <path d="M349 401l-12 70 28 4" fill="none" stroke="#b36974" stroke-width="5" stroke-linecap="round"/>
 <path d="M311 508q39 27 80 0q-42 55-80 0z" fill="#8d315b"/><path d="M321 513q30 12 60 0" stroke="#ffd5df" stroke-width="6" fill="none"/>
 <!-- face marks -->
 <path d="M281 440l-25 26M419 440l25 26" stroke="#46ddff" stroke-width="5" opacity=".8" filter="url(#g)"/>
+<ellipse cx="286" cy="455" rx="42" ry="25" fill="url(#blush)"/><ellipse cx="414" cy="455" rx="42" ry="25" fill="url(#blush)"/>
+<path d="M247 475q21 86 103 113q83-28 104-113" fill="none" stroke="#ffddcf" stroke-opacity=".24" stroke-width="5"/>
 <!-- collar details -->
 <circle cx="350" cy="716" r="18" fill="#ff4dc8" filter="url(#g)"/><path d="M350 716v108" stroke="#ff4dc8" stroke-width="5" opacity=".7"/>
+<path d="M314 744l36 31 36-31M300 866h100" fill="none" stroke="#c54aff" stroke-opacity=".5" stroke-width="4"/>
 </svg>
