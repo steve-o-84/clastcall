@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#090611" />
+  <title>Neon Last Call</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="scene" aria-label="Cyberpunk-Bar">
+      <div id="ambient"></div>
+      <header id="hud">
+        <div class="brand"><span class="brand-mark">N</span><div><b>NEON LAST CALL</b><small>Nacht <span id="night">1</span></small></div></div>
+        <div class="stats"><span>Credits <b id="money">120</b> €</span><span>Ruf <b id="rep">0</b></span><span>Gäste <b id="served">0</b>/5</span></div>
+        <button id="soundBtn" class="icon-btn" title="Sound umschalten">♪</button>
+      </header>
+
+      <main id="stage">
+        <section id="guestArea">
+          <div id="guestGlow"></div>
+          <img id="guestImage" src="guest_nyx.svg" alt="Gast" />
+          <div id="guestCard">
+            <div><strong id="guestName">Nyx Vale</strong><span id="guestRole">Netzläuferin</span></div>
+            <div class="relationship"><span>Vertrauen</span><div class="meter"><i id="trustBar"></i></div><b id="trustValue">10</b></div>
+            <div class="relationship"><span>Chemie</span><div class="meter pink"><i id="chemBar"></i></div><b id="chemValue">8</b></div>
+          </div>
+        </section>
+
+        <section id="dialoguePanel" class="glass-panel">
+          <div class="speaker"><span id="speakerName">Nyx</span><em id="mood">neugierig</em></div>
+          <p id="dialogueText">Du bist also der neue Barkeeper. Zeig mir, ob deine Hände ruhiger sind als die Kameras draußen.</p>
+          <div id="choices"></div>
+        </section>
+
+        <section id="mixPanel" class="glass-panel hidden">
+          <div class="mix-head">
+            <div><small>BESTELLUNG</small><h2 id="orderName">Neon Mirage</h2><p id="orderHint">Highball · Eiswürfel · gerührt</p></div>
+            <button id="recipeBtn" class="secondary">Rezept-Tablet</button>
+          </div>
+
+          <div class="mix-layout">
+            <div id="bottleRack"></div>
+            <div id="barTools">
+              <div id="glassWrap">
+                <div id="glass">
+                  <div id="liquid"></div>
+                  <div id="iceLayer"></div>
+                  <div id="bubbles"></div>
+                </div>
+                <div id="pourStream"></div>
+                <div id="measure"><b id="totalMl">0</b><span>ml</span></div>
+              </div>
+              <div id="toolButtons">
+                <button data-ice="cubes">▧ Eiswürfel</button>
+                <button data-ice="crushed">◈ Crushed Ice</button>
+                <button id="shakeBtn">↯ Shaken</button>
+                <button id="stirBtn">⟳ Rühren</button>
+                <button id="resetBtn" class="danger">Neu</button>
+                <button id="serveBtn" class="primary">Servieren</button>
+              </div>
+            </div>
+          </div>
+          <div id="mixLog">Wähle eine Flasche und halte „Einschenken“ gedrückt.</div>
+        </section>
+
+        <aside id="tablet" class="glass-panel hidden">
+          <button id="closeTablet" class="icon-btn">×</button>
+          <small>BAROS 7.4 · REZEPTARCHIV</small>
+          <h2 id="tabletTitle">Neon Mirage</h2>
+          <div id="recipeList"></div>
+          <div class="recipe-meta"><span id="recipeGlass"></span><span id="recipeIce"></span><span id="recipeMethod"></span></div>
+        </aside>
+
+        <section id="resultPanel" class="glass-panel hidden">
+          <small>SERVIERUNG ABGESCHLOSSEN</small>
+          <div id="scoreRing"><b id="scoreValue">0</b><span>%</span></div>
+          <h2 id="resultTitle">Sauber gemixt</h2>
+          <p id="resultText"></p>
+          <div class="reward"><span>Bezahlung</span><b id="rewardValue">0 €</b></div>
+          <button id="nextGuestBtn" class="primary">Nächster Gast</button>
+        </section>
+      </main>
+
+      <footer id="footerBar">
+        <button id="contactsBtn">Kontakte</button>
+        <button id="shopBtn">Schwarzmarkt</button>
+        <span id="shiftGoal">Schichtziel: 5 Gäste bedienen</span>
+      </footer>
+    </div>
+
+    <div id="modal" class="hidden">
+      <div class="modal-card glass-panel">
+        <button id="closeModal" class="icon-btn">×</button>
+        <h2 id="modalTitle">Kontakte</h2>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
