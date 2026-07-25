@@ -31,4 +31,12 @@
 <path d="M456 375h20v48h-20z" fill="#37dfff" opacity=".6" filter="url(#g)"/>
 <path d="M282 639l68 30 68-30" fill="none" stroke="#75efff" stroke-width="6"/>
 <path d="M443 734l50 14-15 58-50-15z" fill="#0e1f35" stroke="#49e5ff" stroke-width="4"/><path d="M450 761h27" stroke="#49e5ff" stroke-width="5"/>
+<!-- v2.3 depth, fabric and courier equipment -->
+<path d="M278 411q18 137 72 182 55-45 75-182-5 151-75 194-70-42-72-194z" fill="#6f3f65" opacity=".13"/>
+<path d="M273 470q31 74 77 91 47-18 78-91" fill="none" stroke="#ffe2d7" stroke-opacity=".2" stroke-width="5"/>
+<path d="M203 726l72 55-48 137M497 726l-72 55 48 137" fill="none" stroke="#a9c2dc" stroke-opacity=".34" stroke-width="5"/>
+<path d="M269 704l81 45 82-45" fill="none" stroke="#46e8ff" stroke-opacity=".6" stroke-width="4"/>
+<g transform="translate(154 819) rotate(-12)"><rect width="120" height="72" rx="10" fill="#0a1827" stroke="#52e8ff" stroke-width="5"/><path d="M18 21h84M18 37h53M18 53h70" stroke="#48dfff" stroke-opacity=".55" stroke-width="5"/></g>
+<path d="M161 875q-35 24-14 56 24 22 55-2" fill="none" stroke="#d99b91" stroke-width="16" stroke-linecap="round"/>
+<circle cx="350" cy="713" r="11" fill="#55eaff" filter="url(#g)"/>
 </svg>
