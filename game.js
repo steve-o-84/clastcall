@@ -1,6 +1,6 @@
 'use strict';
 
-const VERSION = '2.2.0';
+const VERSION = '2.2.1';
 const SAVE_KEY = 'neon-last-call-v2';
 const LEGACY_KEY = 'neon-last-call-flat';
 const DEFAULT_STATE = {money:120,rep:0,night:1,served:0,guestIndex:0,relations:{},upgrades:{steady:false,ice:false,scanner:false},recipePinned:false};
