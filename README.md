@@ -1,6 +1,6 @@
 # Neon Last Call
 
-**Version 2.2.1**
+**Version 2.3.0**
 
 Ein vollständig statisches, animiertes Browser-Spiel für GitHub Pages. Alle Dateien liegen auf derselben Ebene; es gibt keine Unterordner und keinen Build-Schritt.
 
@@ -35,6 +35,11 @@ Ein vollständig statisches, animiertes Browser-Spiel für GitHub Pages. Alle Da
 - Nyx vollständig neu illustriert mit erwachsenen Proportionen
 - Neue Gesichtsmodellierung, Licht, Schatten und natürlichere Augen
 - Asymmetrisches Haar, Cyberimplantate und mechanischer Unterarm
+- Alle sechs Figuren visuell ausgebaut – mit eigenen Gesichtern, Silhouetten, Outfits, Ausrüstung und Lichtdetails
+- Kontaktübersicht mit kleinen Charakterporträts
+- 24 mehrstufige Dialogszenen mit zusätzlichen Geschichten und Antwortmöglichkeiten
+- Antwortauswahl wird bei jeder neuen Frage vollständig zurückgesetzt
+- Unnötiger Musikschalter entfernt
 - Responsive Layouts für Desktop, iPad, Handy und Querformat
 - Animierte Gäste, Neonbeleuchtung und Regen
 - Animierte Flaschen, Flüssigkeit, Eis, Blasen, Shaken und Rühren
