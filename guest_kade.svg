@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1000" viewBox="0 0 700 1000">
+<defs>
+ <linearGradient id="skin" x1="0" y2="1"><stop stop-color="#ead8cf"/><stop offset="1" stop-color="#9da3b4"/></linearGradient>
+ <linearGradient id="armor" x1="0" x2="1" y2="1"><stop stop-color="#32384d"/><stop offset=".42" stop-color="#121828"/><stop offset="1" stop-color="#452342"/></linearGradient>
+ <linearGradient id="hair" x1="0" x2="1"><stop stop-color="#f4f6ff"/><stop offset=".55" stop-color="#aeb8d4"/><stop offset="1" stop-color="#536080"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="350" cy="929" rx="238" ry="44" fill="#ff3d6e" opacity=".16" filter="url(#g)"/>
+<!-- angular synthetic body -->
+<path d="M128 942q32-231 147-329h151q115 98 147 329z" fill="url(#armor)" stroke="#686f8b" stroke-width="8"/>
+<path d="M199 925l47-253 86 77-42 193zm302 0-47-253-86 77 42 193z" fill="#252d43" stroke="#a04d77" stroke-width="5"/>
+<path d="M274 613l76 136 78-136 36 329H236z" fill="#0d1423"/>
+<path d="M254 785l96 55 98-55M242 848l108 49 110-49" fill="none" stroke="#ff477d" stroke-opacity=".35" stroke-width="5"/>
+<!-- neck with exposed mechanics -->
+<path d="M300 543h100l17 90-67 73-67-73z" fill="url(#skin)"/>
+<path d="M300 581l50 125 51-125-14 106-37 42-36-42z" fill="#1c2d41" stroke="#48dfff" stroke-width="4"/>
+<!-- face -->
+<path d="M245 274q27-137 109-145 91 11 109 145l-16 236q-24 87-96 113-73-28-97-113z" fill="url(#skin)" stroke="#73788c" stroke-width="6"/>
+<!-- white swept spikes -->
+<path d="M228 309q-10-153 96-210l8 59 46-83 7 72 80-42-24 76 72 4-73 79q-80-81-186 70z" fill="url(#hair)" stroke="#68748f" stroke-width="7"/>
+<path d="M267 269q58-89 155-119m-129 92q55-60 124-82" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="7"/>
+<!-- cybernetic left face -->
+<path d="M244 314l101-39-6 178-78 70-17-26z" fill="#263144" opacity=".88"/>
+<path d="M255 334l73-27m-72 72l69-13m-66 69l63-8" stroke="#54dfff" stroke-opacity=".5" stroke-width="4"/>
+<path d="M270 350q32-24 66 0-32 25-66 0z" fill="#07131f" stroke="#4aeaff" stroke-width="4"/>
+<circle cx="306" cy="351" r="8" fill="#54eaff" filter="url(#g)"/><circle cx="306" cy="351" r="3" fill="#fff"/>
+<!-- natural right eye -->
+<path d="M365 350q36-26 72 1-35 24-72-1z" fill="#f6f4f1"/>
+<ellipse cx="404" cy="352" rx="9" ry="13" fill="#a75078"/><circle cx="404" cy="353" r="4" fill="#17141c"/>
+<path d="M362 326q39-20 77 3" fill="none" stroke="#55596c" stroke-width="10" stroke-linecap="round"/>
+<!-- face details -->
+<path d="M351 368l-9 75 27 4" fill="none" stroke="#777788" stroke-width="5"/>
+<path d="M308 509q44 20 88 0" fill="none" stroke="#77516b" stroke-width="7"/>
+<path d="M351 474v116m-55-43l55 43 56-43" fill="none" stroke="#4bdfff" stroke-opacity=".35" stroke-width="4"/>
+<circle cx="351" cy="590" r="9" fill="#ff486f" filter="url(#g)"/>
+<!-- shoulder hardware -->
+<path d="M154 765l105-98 47 59-101 108zM546 765l-105-98-47 59 101 108z" fill="#303a51" stroke="#78829c" stroke-width="6"/>
+<path d="M181 766l72-64m266 64-72-64" stroke="#ff537e" stroke-width="5"/>
+</svg>
