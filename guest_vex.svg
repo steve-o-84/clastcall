@@ -1,19 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="1000" viewBox="0 0 700 1000">
-<defs><linearGradient id="h" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffcf55"/><stop offset=".45" stop-color="#ff6f46"/><stop offset="1" stop-color="#8d2239"/></linearGradient><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd9bd"/><stop offset="1" stop-color="#c98471"/></linearGradient><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b1723"/><stop offset="1" stop-color="#4b1c24"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<ellipse cx="350" cy="922" rx="230" ry="44" fill="#ff5d55" opacity=".2" filter="url(#g)"/>
-<path d="M165 940Q180 710 246 620Q350 574 454 620Q520 710 535 940Z" fill="url(#c)" stroke="#8b3d45" stroke-width="7"/>
-<path d="M250 641l100 91 100-91 38 299H212Z" fill="#130d16"/>
-<path d="M302 560h96l8 90q-56 40-112 0z" fill="url(#s)"/>
-<path d="M210 410Q202 165 350 118Q505 158 494 418L478 634Q434 696 388 718L374 613Q461 553 451 381Q443 225 350 210Q258 228 249 384Q242 552 328 613L313 718Q264 695 222 633Z" fill="url(#h)" stroke="#9c3940" stroke-width="8"/>
-<path d="M256 329Q278 219 350 208Q425 218 447 329L438 486Q421 566 350 596Q279 566 261 486Z" fill="url(#s)" stroke="#af6b62" stroke-width="5"/>
-<path d="M241 349Q249 180 356 158Q455 181 470 341Q419 309 394 226Q360 306 299 342Q268 354 241 349Z" fill="url(#h)"/>
-<path d="M251 385q-47-18-52 29q5 64 61 61zM449 385q47-18 52 29q-5 64-61 61z" fill="url(#s)"/>
-<path d="M278 389q39-28 76 0q-37 34-76 0zM346 389q39-28 76 0q-37 34-76 0z" fill="#fff"/>
-<ellipse cx="319" cy="391" rx="13" ry="21" fill="#ffc740"/><ellipse cx="383" cy="391" rx="13" ry="21" fill="#ffc740"/><circle cx="319" cy="394" r="6"/><circle cx="383" cy="394" r="6"/>
-<path d="M275 365q39-25 81 0M344 365q39-25 81 0" fill="none" stroke="#4e272c" stroke-width="10" stroke-linecap="round"/>
-<path d="M348 400l-11 70 27 5" fill="none" stroke="#a8645f" stroke-width="5" stroke-linecap="round"/>
-<path d="M312 509q39 29 78 0q-41 54-78 0z" fill="#7e283e"/><path d="M323 514q28 12 56 0" stroke="#ffe0e4" stroke-width="5" fill="none"/>
-<path d="M206 392l39 16 2 60-42-13zM494 392l-39 16-2 60 42-13z" fill="#2a1421" stroke="#ff8b43" stroke-width="5" filter="url(#g)"/>
-<path d="M250 649l100 89 100-89" fill="none" stroke="#ff684a" stroke-width="8" filter="url(#g)"/>
-<path d="M192 694l-56 226h84l67-206zM508 694l56 226h-84l-67-206z" fill="#31151f" stroke="#80323d" stroke-width="5"/>
+<defs>
+ <linearGradient id="skin" x1="0" y2="1"><stop stop-color="#f2b68e"/><stop offset="1" stop-color="#a95558"/></linearGradient>
+ <linearGradient id="hair" x1="0" x2="1"><stop stop-color="#ff8848"/><stop offset=".55" stop-color="#f13b43"/><stop offset="1" stop-color="#7e1b39"/></linearGradient>
+ <linearGradient id="jacket" x1="0" x2="1" y2="1"><stop stop-color="#3d151c"/><stop offset=".5" stop-color="#752631"/><stop offset="1" stop-color="#17151f"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="350" cy="930" rx="245" ry="45" fill="#ff592f" opacity=".17" filter="url(#g)"/>
+<!-- racing jacket, wide shoulders -->
+<path d="M105 943q34-224 154-320h182q120 96 154 320z" fill="url(#jacket)" stroke="#bd4c47" stroke-width="8"/>
+<path d="M260 623l90 104 91-104 41 320H218z" fill="#151722"/>
+<path d="M154 728l108-105 45 80-99 218h-98zm392 0-108-105-45 80 99 218h98z" fill="#522029" stroke="#db5d4d" stroke-width="6"/>
+<path d="M177 755l91 39m255-39-91 39" stroke="#ffc557" stroke-width="8"/>
+<path d="M246 802h208M228 866h244" stroke="#ff6851" stroke-opacity=".32" stroke-width="6"/>
+<!-- neck -->
+<path d="M301 549h98l18 93q-67 48-134 0z" fill="url(#skin)"/>
+<!-- ponytail and shaved side -->
+<path d="M436 207q119 70 91 290l-51 155-53-87 36-169-54-147z" fill="url(#hair)" stroke="#9a2438" stroke-width="8"/>
+<path d="M228 299q14-178 124-188 89 12 118 109-76-31-138 8-55 36-84 107z" fill="#251820"/>
+<path d="M232 272q22-112 91-145l-8 61 56-84 11 75 73-42-31 97z" fill="url(#hair)"/>
+<path d="M253 241q63-82 160-104" fill="none" stroke="#ffc06c" stroke-opacity=".5" stroke-width="8"/>
+<!-- face -->
+<path d="M249 297q31-109 104-114 80 12 101 117l-13 204q-21 82-89 112-69-31-89-112z" fill="url(#skin)" stroke="#91484e" stroke-width="5"/>
+<!-- racing goggles on forehead -->
+<path d="M267 268q82-47 168 0l-13 46-62-3-16-18-16 18-61 3z" fill="#151923" stroke="#ffc34b" stroke-width="6"/>
+<path d="M281 278h47v22h-52zm92 0h47l5 22h-52z" fill="#ff9d38" opacity=".7"/>
+<!-- lively but proportionate eyes -->
+<path d="M273 363q34-25 70 1-35 25-70-1zm91 1q36-26 73 0-36 25-73 0z" fill="#fff4e8"/>
+<ellipse cx="313" cy="365" rx="9" ry="13" fill="#df9d27"/><ellipse cx="403" cy="365" rx="9" ry="13" fill="#df9d27"/>
+<circle cx="313" cy="366" r="4" fill="#20150f"/><circle cx="403" cy="366" r="4" fill="#20150f"/>
+<path d="M271 337q37-22 74-2m18 0q39-23 77 2" fill="none" stroke="#47201d" stroke-width="10" stroke-linecap="round"/>
+<path d="M354 377l-13 72 28 5" fill="none" stroke="#91474e" stroke-width="5"/>
+<path d="M306 514q46 34 92 0-44 58-92 0z" fill="#8e294a"/><path d="M319 519q33 12 66 0" stroke="#ffe2d4" stroke-width="5"/>
+<!-- cheek stripes and piercings -->
+<path d="M270 450l-25 17m31-2-24 17" stroke="#ffb944" stroke-width="5"/>
+<circle cx="419" cy="476" r="6" fill="#4cecff" filter="url(#g)"/>
+<path d="M282 644l68 83 69-83" fill="none" stroke="#ffbd43" stroke-width="7" filter="url(#g)"/>
+<path d="M350 727v215" stroke="#ff6b4b" stroke-width="5"/>
 </svg>
