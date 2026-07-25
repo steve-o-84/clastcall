@@ -35,4 +35,12 @@
 <!-- badge and coat tech -->
 <path d="M213 766l58-20 20 58-58 19z" fill="#16293b" stroke="#45dfff" stroke-width="4"/><path d="M226 779l42 9" stroke="#45dfff" stroke-width="5"/>
 <path d="M350 759v183" stroke="#c59355" stroke-opacity=".55" stroke-width="5"/>
+<!-- v2.3 detective detail and dimensional lighting -->
+<path d="M267 417q23 132 84 174 62-43 87-175-8 145-87 189-77-44-84-188z" fill="#3f242b" opacity=".17"/>
+<path d="M278 489q70 72 143 0" fill="none" stroke="#e2aa95" stroke-opacity=".18" stroke-width="5"/>
+<path d="M190 736l91 59-65 135M510 736l-91 59 65 135" fill="none" stroke="#a4b8c8" stroke-opacity=".28" stroke-width="6"/>
+<path d="M250 851h81m38 0h81M238 898h93m38 0h93" stroke="#4f738b" stroke-width="5"/>
+<g transform="translate(484 824)"><path d="M0 0h129l25 92-128 19z" fill="#172334" stroke="#536f86" stroke-width="6"/><path d="M25 18l104 56M18 45l96 49" stroke="#31495e" stroke-width="7"/><circle cx="101" cy="62" r="17" fill="#38dfff" opacity=".78" filter="url(#glow)"/></g>
+<path d="M609 842q35-33 62 0 11 31-17 49" fill="none" stroke="#9f6758" stroke-width="17" stroke-linecap="round"/>
+<path d="M286 205q68-46 137 0" fill="none" stroke="#b6c6cd" stroke-opacity=".17" stroke-width="5"/>
 </svg>
