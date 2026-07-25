@@ -36,4 +36,12 @@
 <!-- shoulder hardware -->
 <path d="M154 765l105-98 47 59-101 108zM546 765l-105-98-47 59 101 108z" fill="#303a51" stroke="#78829c" stroke-width="6"/>
 <path d="M181 766l72-64m266 64-72-64" stroke="#ff537e" stroke-width="5"/>
+<!-- v2.3 synthetic plating, face depth and articulated hand -->
+<path d="M256 418q22 125 95 178 73-53 94-178-5 142-94 191-89-48-95-191z" fill="#5b5670" opacity=".14"/>
+<path d="M274 492q77 73 155 0" fill="none" stroke="#fff" stroke-opacity=".13" stroke-width="5"/>
+<path d="M202 744l104 72-77 113M498 744l-104 72 77 113" fill="none" stroke="#95a3bd" stroke-opacity=".4" stroke-width="6"/>
+<path d="M252 835h75m46 0h75M238 890h89m46 0h89" stroke="#ff527d" stroke-opacity=".28" stroke-width="5"/>
+<g transform="translate(486 815) rotate(8)"><path d="M0 0h132l25 102-128 8z" fill="#222b40" stroke="#77849e" stroke-width="6"/><path d="M23 12l105 75M17 42l87 64M49 8l-21 93M81 8l-19 97M111 15l-18 88" stroke="#394962" stroke-width="7"/><circle cx="112" cy="72" r="16" fill="#ff4c76" filter="url(#g)"/></g>
+<path d="M615 831q38-23 59 13 5 31-26 45" fill="none" stroke="#abb0bd" stroke-width="17" stroke-linecap="round"/>
+<path d="M285 251q60-92 142-112" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="6"/>
 </svg>
