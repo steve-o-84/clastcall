@@ -34,6 +34,41 @@
 <!-- city windows -->
 <g opacity=".9"><rect x="84" y="680" width="460" height="220" rx="18" fill="#071a28" stroke="#3ce3ff" stroke-opacity=".32" stroke-width="5"/><rect x="1376" y="680" width="460" height="220" rx="18" fill="#17091c" stroke="#ff48c5" stroke-opacity=".35" stroke-width="5"/>
 <g stroke="#42dfff" stroke-width="4" opacity=".45"><path d="M120 715l80 185M230 715l80 185M340 715l80 185M450 715l60 140"/></g><g stroke="#ff47ba" stroke-width="4" opacity=".38"><path d="M1410 715l100 185M1530 715l100 185M1650 715l100 185"/></g></g>
+<!-- hanging lamps and warm pools -->
+<g>
+  <path d="M250 0v178M1670 0v178M570 0v148M1350 0v148" stroke="#181522" stroke-width="10"/>
+  <path d="M180 178h140l45 74H135zM1600 178h140l45 74h-230z" fill="#1c1320" stroke="#7f355f" stroke-width="5"/>
+  <path d="M520 148h100l32 56H488zM1300 148h100l32 56h-164z" fill="#131a27" stroke="#275c73" stroke-width="4"/>
+  <ellipse cx="250" cy="265" rx="170" ry="95" fill="#ff7b42" opacity=".08" filter="url(#soft)"/>
+  <ellipse cx="1670" cy="265" rx="170" ry="95" fill="#ff3ea8" opacity=".09" filter="url(#soft)"/>
+  <ellipse cx="570" cy="216" rx="115" ry="75" fill="#38dfff" opacity=".07" filter="url(#soft)"/>
+  <ellipse cx="1350" cy="216" rx="115" ry="75" fill="#38dfff" opacity=".07" filter="url(#soft)"/>
+</g>
+<!-- suspended glassware -->
+<g fill="none" stroke="#c8eaff" stroke-opacity=".34" stroke-width="3">
+  <path d="M610 188v70q0 34 28 34t28-34v-70M638 292v28m-24 0h48"/>
+  <path d="M681 188v62q0 31 26 31t26-31v-62M707 281v30m-22 0h44"/>
+  <path d="M1190 188v70q0 34 28 34t28-34v-70M1218 292v28m-24 0h48"/>
+  <path d="M1261 188v62q0 31 26 31t26-31v-62M1287 281v30m-22 0h44"/>
+</g>
+<!-- distant patrons and furniture -->
+<g opacity=".42">
+  <path d="M390 774q8-84 67-91q61 9 72 91v105H384z" fill="#050711"/><circle cx="457" cy="646" r="42" fill="#070813"/>
+  <path d="M1494 786q10-94 72-101q64 11 76 101v101h-153z" fill="#070611"/><circle cx="1566" cy="646" r="43" fill="#090712"/>
+  <path d="M610 840v-126m-67 126h134M543 715h134" stroke="#141020" stroke-width="18"/>
+  <path d="M1310 840v-126m-67 126h134M1243 715h134" stroke="#141020" stroke-width="18"/>
+</g>
+<!-- small bar machinery -->
+<g transform="translate(96 548)">
+  <rect width="170" height="118" rx="14" fill="#0b111d" stroke="#2b8cac" stroke-width="4"/>
+  <rect x="22" y="20" width="126" height="48" rx="6" fill="#071b25"/>
+  <path d="M38 49h28l13-17 18 31 14-22h24" fill="none" stroke="#43ddff" stroke-width="4"/>
+  <circle cx="45" cy="91" r="9" fill="#ff3aaa"/><circle cx="76" cy="91" r="9" fill="#3bdfff"/>
+</g>
+<g transform="translate(1654 552)">
+  <rect width="170" height="114" rx="14" fill="#140a18" stroke="#963b83" stroke-width="4"/>
+  <path d="M28 28h114M28 52h84M28 76h101" stroke="#ff4fc2" stroke-opacity=".55" stroke-width="8"/>
+</g>
 <!-- counter -->
 <path d="M0 830Q960 760 1920 830V1080H0Z" fill="url(#counter)"/>
 <path d="M0 832Q960 765 1920 832" fill="none" stroke="#ff5b8a" stroke-width="10" filter="url(#glow)"/>
@@ -41,4 +76,10 @@
 <!-- foreground reflections -->
 <ellipse cx="960" cy="940" rx="520" ry="60" fill="#ff376f" opacity=".12" filter="url(#soft)"/>
 <ellipse cx="1210" cy="955" rx="310" ry="45" fill="#38dfff" opacity=".09" filter="url(#soft)"/>
+<!-- wood grain, tools and reflections -->
+<g fill="none" stroke-linecap="round">
+  <path d="M80 925q180-38 365 4t370-3 375 0 650-5M25 1005q205-43 440 0t410-4 405 5 600-8" stroke="#b34b61" stroke-opacity=".17" stroke-width="5"/>
+  <path d="M1510 904l165 62m-151-82l171 65" stroke="#d4d8e7" stroke-opacity=".38" stroke-width="7"/>
+  <circle cx="1760" cy="930" r="25" stroke="#44dfff" stroke-opacity=".4" stroke-width="6"/>
+</g>
 </svg>
